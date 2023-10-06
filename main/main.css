@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merienda:wght@700&family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merienda:wght@700&family=Permanent+Marker&family=Zeyada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merienda:wght@700&family=Patrick+Hand&family=Permanent+Marker&family=Zeyada&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #000000;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: #000000;
+}
+header {
+  width: 100vw;
+  height: 90px;
+  background-color: #00ff00;
+}
+#logo {
+  width: 300px;
+  height: 90px;
+  line-height: 85px;
+  float: left;
+  padding-left: 20px;
+}
+#logo h1 {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 700;
+  font-size: 50px;
+  color: #000000;
+}
+#logo a {
+  text-decoration-line: none;
+}
+footer {
+  margin-top: 50px;
+}
+footer h1 {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 700;
+  font-size: 100px;
+  color: white;
+  text-align: center;
+}
+footer h5 {
+  font-family: "Zeyada", cursive;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+ul {
+  list-style: none;
+}
+
+#menu {
+  height: 60px;
+}
+#menu > li {
+  float: left;
+  position: relative;
+}
+#menu > li > a {
+  display: block;
+  font-weight: 800;
+  font-size: 25px;
+  padding: 20px 20px;
+  margin-top: 9px;
+  text-shadow: none;
+  font-family: "Patrick Hand", cursive;
+  color: #000000;
+}
+#menu a {
+  text-decoration-line: none;
+}
+#columns {
+  column-width: 100vw;
+  column-gap: 100vh;
+}
+#columns figure {
+  display: inline-block;
+  border: 1px solid #00ff00;
+  margin: 0;
+  margin-top: 10px;
+  border-radius: 30px;
+}
+#columns figure img {
+  width: 100%;
+  border-radius: 30px;
+}
