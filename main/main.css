@@ -41,14 +41,14 @@ header {
 footer {
   margin-top: 50px;
 }
-footer h1 {
+#bottomLogo h1 {
   font-family: "Permanent Marker", cursive;
   font-weight: 700;
   font-size: 100px;
   color: white;
   text-align: center;
 }
-footer h5 {
+#bottomLogo h5 {
   font-family: "Zeyada", cursive;
   font-weight: 700;
   font-size: 25px;
@@ -71,7 +71,7 @@ ul {
   display: block;
   font-weight: 800;
   font-size: 25px;
-  padding: 20px 20px;
+  padding: 20px 15px;
   margin-top: 9px;
   text-shadow: none;
   font-family: "Patrick Hand", cursive;
@@ -84,25 +84,102 @@ ul {
   column-width: 100vw;
   column-gap: 100vh;
 }
-#long > figure {
+#long1 figure {
   width: 33vw;
   height: 600px;
   display: inline-block;
   margin: 0;
   margin-top: 10px;
   border-radius: 30px;
-  background-color: #00ff00;
+  background-color: #fdff00;
 }
-
-#wide > figure {
+#long2 figure img {
   width: 33vw;
-  height: 295px;
+  height: 600px;
+  display: inline-block;
   margin: 0;
   margin-top: 10px;
   border-radius: 30px;
-  background-color: #00ff00;
 }
+
+#wide1 > figure {
+  width: 33vw;
+  height: 295px;
+  display: inline-block;
+  margin: 0;
+  margin-top: 10px;
+  border-radius: 30px;
+  background-color: #ff00d3;
+}
+#wide2 figure img {
+  width: 33vw;
+  height: 295px;
+  display: inline-block;
+  margin: 0;
+  margin-top: 5px;
+  border-radius: 30px;
+}
+
 #long,
 #wide {
   display: inline-block;
+}
+#long1,
+#long2 {
+  display: inline-block;
+}
+#search {
+  float: right;
+  background-color: #000000;
+  border-radius: 30px;
+  height: 30px;
+  width: 200px;
+  margin-top: -23px;
+  margin-right: 10px;
+}
+
+#search input {
+  border: none;
+  background-color: #000000;
+  outline: none;
+  color: #00ff00;
+  font-family: "Patrick Hand", cursive;
+  font-size: 20px;
+  font-weight: 30;
+  margin-left: 10px;
+  width: 130px;
+  height: 25px;
+}
+#search button {
+  border: none;
+  color: #00ff00;
+  font-family: "Patrick Hand", cursive;
+  background-color: #000000;
+  font-size: 20px;
+  font-weight: 30;
+  height: 25px;
+  margin-top: 3px;
+}
+
+#login button {
+  float: right;
+  background-color: #00ff00;
+  height: 35px;
+  width: 35px;
+  margin-top: -24px;
+  outline: none;
+  border: none;
+  margin-right: 40px;
+  margin-left: 3px;
+}
+#login button img {
+  height: 35px;
+  width: 35px;
+}
+
+#columns img {
+  filter: brightness(1);
+}
+#columns img:hover {
+  filter: brightness(0.6);
 }
