@@ -183,3 +183,250 @@ ul {
 #columns img:hover {
   filter: brightness(0.6);
 }
+#login_contents h1 {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 700;
+  font-size: 70px;
+  color: white;
+  text-align: center;
+  background-color: #000000;
+  width: 400px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+  padding-top: 10px;
+}
+#login_contents {
+  border-style: solid;
+  background-color: #000000;
+  border-color: #00ff00;
+  border-radius: 30px;
+  height: 600px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+#login_form input {
+  width: 300px;
+  height: 48px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  border-radius: 30px;
+  background-color: white;
+}
+#login_form > input::placeholder {
+  color: #000000;
+  font-family: "Patrick Hand", cursive;
+  font-size: 20px;
+  font-weight: 800;
+}
+#login_form > input[type="submit"] {
+  color: #000000;
+  background-color: #00ff00;
+  margin-top: 20px;
+  font-family: "Patrick Hand", cursive;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 800;
+  margin-left: 95px;
+  margin-top: 5px;
+  border-radius: 30px;
+  border: 1px solid #00ff00;
+}
+#login_form > input[type="text"] {
+  color: #000000;
+  font-family: "Patrick Hand", cursive;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  margin-left: 95px;
+  border-radius: 30px;
+  outline: none;
+  border: 1px solid white;
+}
+#login_form > input[type="password"] {
+  font-size: 20px;
+  color: #000000;
+  font-family: "Patrick Hand", cursive;
+  font-weight: 800;
+  margin-bottom: 10px;
+  margin-left: 95px;
+  border-radius: 30px;
+  outline: none;
+  border: 1px solid white;
+}
+label {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #00ff00;
+  margin-left: 5px;
+  margin-top: 20px;
+  border-radius: 50%;
+  margin-left: 95px;
+}
+.chk_btn input[type="checkbox"] {
+  display: none;
+}
+
+.chk_btn input[type="checkbox"]:checked + label {
+  border-color: #00ff00;
+  background-color: #00ff00;
+}
+.chk_btn h3 {
+  color: #00ff00;
+  font-family: "Patrick Hand", cursive;
+  font-size: 20px;
+  font-weight: 800;
+  width: 120px;
+  padding-left: 20px;
+}
+#login_contents hr {
+  width: 390px;
+  text-align: center;
+  font-family: "Patrick Hand", cursive;
+  background-color: #00ff00;
+  border-color: #00ff00;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+#login_contents h4 {
+  font-family: "Patrick Hand", cursive;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+#login_contents a {
+  font-family: "Patrick Hand", cursive;
+  color: #00ff00;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 800;
+  margin-left: 177px;
+}
+#magazine_search {
+  background-color: white;
+  border-radius: 30px;
+  height: 50px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+#magazine_search input {
+  border: none;
+  background-color: white;
+  outline: none;
+  color: #000000;
+  font-family: "Patrick Hand", cursive;
+  font-size: 25px;
+  font-weight: 30;
+  margin-left: 10px;
+  width: 400px;
+  height: 35px;
+  padding-left: 5px;
+}
+#magazine_search button {
+  border: none;
+  color: #000000;
+  font-family: "Patrick Hand", cursive;
+  background-color: #00ff00;
+  font-size: 25px;
+  font-weight: 30;
+  width: 84.39px;
+  height: 50px;
+  border-radius: 30px;
+}
+.magazine_title h1 {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 450;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.card {
+  height: 400px;
+  width: 350px;
+  border-radius: 15px;
+  display: inline-block;
+  margin-top: 120px;
+  margin-left: 25px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+  color: #000000;
+}
+
+.card-header {
+  -webkit-transition: 0.5s; /*사파리 & 크롬*/
+  -moz-transition: 0.5s; /*파이어폭스*/
+  -ms-transition: 0.5s; /*인터넷 익스플로러*/
+  -o-transition: 0.5s; /*오페라*/
+  transition: 0.5s;
+  width: 100%;
+  height: 270px;
+  border-radius: 15px 15px 0 0;
+}
+
+.card:hover .card-header {
+  opacity: 0.8;
+
+  height: 100px;
+}
+
+.card-body-header h1 {
+  font-size: 30px;
+  font-weight: 900;
+  color: #000000;
+  font-family: "Patrick Hand", cursive;
+}
+
+.card-body {
+  background-color: white;
+  font-family: "Patrick Hand", cursive;
+}
+
+.card-body-header {
+  line-height: 25px;
+  margin: 10px 20px 0px 20px;
+}
+
+.card-body-description {
+  color: #000000;
+  line-height: 25px;
+  height: 180px;
+  margin: 5px 21px;
+  font-size: 18px;
+}
+
+.card:hover {
+  opacity: 1;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+.card-body-footer {
+  position: absolute;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  bottom: 0;
+  width: 314px;
+  font-size: 14px;
+  color: #000000;
+  padding: 0 15px;
+  background-color: white;
+}
+.card-body-footer hr {
+  margin-bottom: 8px;
+  border-color: #00ff00;
+  width: 320px;
+}
