@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merienda:wght@700&family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merienda:wght@700&family=Permanent+Marker&family=Zeyada&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merienda:wght@700&family=Patrick+Hand&family=Permanent+Marker&family=Zeyada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merienda:wght@700&family=Noto+Sans+KR&family=Patrick+Hand&family=Permanent+Marker&family=Zeyada&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -70,15 +71,39 @@ ul {
 #menu > li > a {
   display: block;
   font-weight: 800;
-  font-size: 25px;
-  padding: 20px 15px;
+  font-size: 23px;
+  padding: 20px 15px 10px 15px;
   margin-top: 9px;
   text-shadow: none;
-  font-family: "Patrick Hand", cursive;
+  font-family: "Noto Sans KR", sans-serif;
   color: #000000;
 }
 #menu a {
   text-decoration-line: none;
+}
+#menu li ul {
+  display: none;
+  position: absolute;
+  width: 120px;
+  background-color: white;
+  margin: 0;
+  left: 6px;
+}
+#menu li ul li {
+  padding: 5px 5px 5px 10px;
+}
+#menu li ul li a {
+  font-size: 17px;
+  color: #000000;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 800;
+}
+#menu li:hover ul {
+  display: block;
+  z-index: 10;
+}
+#menu li ul li a:hover {
+  text-decoration: underline;
 }
 #columns {
   column-width: 100vw;
@@ -143,8 +168,8 @@ ul {
   background-color: #000000;
   outline: none;
   color: #00ff00;
-  font-family: "Patrick Hand", cursive;
-  font-size: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
   font-weight: 30;
   margin-left: 10px;
   width: 130px;
@@ -153,9 +178,9 @@ ul {
 #search button {
   border: none;
   color: #00ff00;
-  font-family: "Patrick Hand", cursive;
+  font-family: "Noto Sans KR", sans-serif;
   background-color: #000000;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 30;
   height: 25px;
   margin-top: 3px;
@@ -216,7 +241,7 @@ ul {
 }
 #login_form > input::placeholder {
   color: #000000;
-  font-family: "Patrick Hand", cursive;
+  font-family: "Noto Sans KR", sans-serif;
   font-size: 20px;
   font-weight: 800;
 }
@@ -224,7 +249,7 @@ ul {
   color: #000000;
   background-color: #00ff00;
   margin-top: 20px;
-  font-family: "Patrick Hand", cursive;
+  font-family: "Noto Sans KR", sans-serif;
   margin: 0 auto;
   font-size: 20px;
   font-weight: 800;
@@ -235,7 +260,7 @@ ul {
 }
 #login_form > input[type="text"] {
   color: #000000;
-  font-family: "Patrick Hand", cursive;
+  font-family: "Noto Sans KR", sans-serif;
   font-size: 20px;
   font-weight: 800;
   margin-bottom: 10px;
@@ -247,7 +272,7 @@ ul {
 #login_form > input[type="password"] {
   font-size: 20px;
   color: #000000;
-  font-family: "Patrick Hand", cursive;
+  font-family: "Noto Sans KR", sans-serif;
   font-weight: 800;
   margin-bottom: 10px;
   margin-left: 95px;
@@ -275,8 +300,8 @@ label {
 }
 .chk_btn h3 {
   color: #00ff00;
-  font-family: "Patrick Hand", cursive;
-  font-size: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 15.62px;
   font-weight: 800;
   width: 120px;
   padding-left: 20px;
@@ -284,28 +309,54 @@ label {
 #login_contents hr {
   width: 390px;
   text-align: center;
-  font-family: "Patrick Hand", cursive;
+  font-family: "Noto Sans KR", sans-serif;
   background-color: #00ff00;
   border-color: #00ff00;
   margin-top: 30px;
   margin-left: 50px;
 }
 #login_contents h4 {
-  font-family: "Patrick Hand", cursive;
+  font-family: "Noto Sans KR", sans-serif;
   color: white;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 800;
   margin-top: 25px;
   margin-bottom: 20px;
 }
 #login_contents a {
-  font-family: "Patrick Hand", cursive;
+  font-family: "Noto Sans KR", sans-serif;
   color: #00ff00;
   text-align: center;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 800;
-  margin-left: 177px;
+  margin-left: 171px;
+}
+.contest_title h1 {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 450;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 120px;
+}
+.contest-body-header h1 {
+  font-size: 25px;
+  font-weight: 900;
+  color: #000000;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.contest-body-header {
+  line-height: 25px;
+  margin: 10px 20px 0px 20px;
+}
+.contest-body-description {
+  color: #000000;
+  line-height: 25px;
+  height: 180px;
+  margin: 5px 21px;
+  font-size: 18px;
 }
 #magazine_search {
   background-color: white;
@@ -314,13 +365,14 @@ label {
   width: 500px;
   margin: 0 auto;
   margin-top: 15px;
+  margin-bottom: 120px;
 }
 #magazine_search input {
   border: none;
   background-color: white;
   outline: none;
   color: #000000;
-  font-family: "Patrick Hand", cursive;
+  font-family: "Noto Sans KR", sans-serif;
   font-size: 25px;
   font-weight: 30;
   margin-left: 10px;
@@ -331,9 +383,9 @@ label {
 #magazine_search button {
   border: none;
   color: #000000;
-  font-family: "Patrick Hand", cursive;
+  font-family: "Noto Sans KR", sans-serif;
   background-color: #00ff00;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 30;
   width: 84.39px;
   height: 50px;
@@ -353,7 +405,6 @@ label {
   width: 350px;
   border-radius: 15px;
   display: inline-block;
-  margin-top: 120px;
   margin-left: 25px;
   margin-bottom: 30px;
   position: relative;
@@ -383,12 +434,12 @@ label {
   font-size: 30px;
   font-weight: 900;
   color: #000000;
-  font-family: "Patrick Hand", cursive;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 .card-body {
   background-color: white;
-  font-family: "Patrick Hand", cursive;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 .card-body-header {
@@ -422,11 +473,56 @@ label {
   width: 314px;
   font-size: 14px;
   color: #000000;
-  padding: 0 15px;
+  padding: 0 21px;
   background-color: white;
 }
 .card-body-footer hr {
   margin-bottom: 8px;
   border-color: #00ff00;
   width: 320px;
+}
+.card a {
+  text-decoration-line: none;
+}
+.gallery_title h1 {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 450;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 120px;
+}
+.recruit_title h1 {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 450;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 120px;
+}
+.recruit-body-header h1 {
+  font-size: 25px;
+  font-weight: 900;
+  color: #000000;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.recruit-body-header {
+  line-height: 25px;
+  margin: 10px 20px 0px 20px;
+}
+.recruit-body-description {
+  color: #000000;
+  line-height: 25px;
+  height: 180px;
+  margin: 5px 21px;
+  font-size: 18px;
+}
+.recruit-body-header h4 {
+  font-size: 13px;
+  font-weight: 900;
+  color: #000000;
+  font-family: "Noto Sans KR", sans-serif;
+  padding-left: 2px;
 }
