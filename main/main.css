@@ -23,6 +23,9 @@ header {
   width: 1536px;
   height: 90px;
   background-color: #00ff00;
+  position: fixed;
+  z-index: 200;
+  top: 0px;
 }
 
 #logo {
@@ -257,7 +260,7 @@ ul {
   height: 600px;
   width: 500px;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 150px;
 }
 #login_form input {
   width: 300px;
@@ -269,10 +272,10 @@ ul {
   background-color: white;
 }
 #login_form > input::placeholder {
-  color: #000000;
+  color: gray;
   font-family: "Noto Sans KR", sans-serif;
-  font-size: 20px;
-  font-weight: 800;
+  font-size: 18px;
+  font-weight: 600;
 }
 #login_form > input[type="submit"] {
   color: #000000;
@@ -314,10 +317,8 @@ label {
   width: 15px;
   height: 15px;
   border: 2px solid #00ff00;
-  margin-left: 5px;
-  margin-top: 20px;
   border-radius: 50%;
-  margin-left: 95px;
+  margin-left: 99px;
 }
 .chk_btn input[type="checkbox"] {
   display: none;
@@ -334,6 +335,7 @@ label {
   font-weight: 800;
   width: 120px;
   padding-left: 20px;
+  line-height: 13px;
 }
 #login_contents hr {
   width: 390px;
@@ -364,10 +366,10 @@ label {
 .contest_title h1 {
   font-family: "Permanent Marker", cursive;
   font-weight: 450;
-  font-size: 45px;
+  font-size: 70px;
   color: white;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 150px;
   margin-bottom: 120px;
 }
 .contest-body-header h1 {
@@ -426,10 +428,10 @@ label {
 .magazine_title h1 {
   font-family: "Permanent Marker", cursive;
   font-weight: 450;
-  font-size: 45px;
+  font-size: 70px;
   color: white;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 150px;
 }
 
 .card {
@@ -519,7 +521,7 @@ label {
 .gallery_title h1 {
   font-family: "Permanent Marker", cursive;
   font-weight: 450;
-  font-size: 45px;
+  font-size: 70px;
   color: white;
   text-align: center;
   margin-top: 60px;
@@ -527,10 +529,10 @@ label {
 .recruit_title h1 {
   font-family: "Permanent Marker", cursive;
   font-weight: 450;
-  font-size: 45px;
+  font-size: 70px;
   color: white;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 150px;
   margin-bottom: 120px;
 }
 .recruit-body-header h1 {
@@ -602,6 +604,9 @@ label {
 }
 .card_recruit a {
   text-decoration-line: none;
+}
+#gallery_contents {
+  margin-top: 150px;
 }
 #gallery_columns {
   column-width: 350px;
@@ -718,6 +723,9 @@ label {
   margin-right: 10px;
   display: inline-block;
 }
+#profile_contents {
+  margin-top: 150px;
+}
 .real-upload {
   display: none;
   cursor: pointer;
@@ -794,4 +802,255 @@ label {
 
 #gallery_columns figure:hover .viewprofile {
   opacity: 1;
+}
+.main_pg01 {
+  width: 1536px;
+  height: 100vh;
+}
+.main_pg01 h1 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+  color: #00ff00;
+  float: right;
+  margin-right: 18px;
+  margin-top: 430px;
+  animation: fadeInUp 1.5s;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+.main_pg02 {
+  width: 1536px;
+  height: 80vh;
+  background-color: #000000;
+  margin-top: 100px;
+}
+
+.main_pg02 h1 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 70px;
+  color: white;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.main_pg02 h3 {
+  font-family: "Noto Sans KR", sans-serif;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.main_pg03 {
+  width: 1536px;
+  height: 80vh;
+  background-color: #000000;
+  margin-top: 100px;
+}
+
+.text_round {
+  margin: 0 auto;
+  width: 700px;
+  height: 85px;
+  border-radius: 50px;
+  background-color: #000000;
+  border: 3px solid #00ff00;
+}
+#scroll {
+  height: 80px;
+  margin-left: 80px;
+  margin-bottom: 30px;
+}
+#scroll li {
+  position: relative;
+  font-family: "Noto Sans KR", sans-serif;
+  color: #00ff00;
+  font-size: 50px;
+  font-weight: 800;
+}
+.text_round h1 {
+  float: left;
+  font-family: "Noto Sans KR", sans-serif;
+  color: #00ff00;
+  font-size: 50px;
+  width: 45px;
+  height: 80px;
+  margin-left: 29px;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+.page03_title {
+  margin-bottom: 60px;
+}
+.page03_title h1 {
+  font-family: "Noto Sans KR", sans-serif;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+}
+.page03_text {
+  margin-top: 50px;
+}
+.page03_text h3 {
+  font-family: "Noto Sans KR", sans-serif;
+  color: #767677;
+  text-align: center;
+  font-size: 20px;
+}
+.main_pg07 {
+  width: 1536px;
+  height: 60vh;
+  background-color: #000000;
+  margin-top: 200px;
+}
+.main_pg07 h1 {
+  font-family: "Noto Sans KR", sans-serif;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.main_pg08 {
+  width: 1536px;
+  height: 30vh;
+  background-color: #000000;
+  margin-top: 100px;
+}
+
+.main_pg_login li button {
+  width: 210px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #00ff00;
+  border: none;
+  margin-top: 20px;
+}
+.main_pg_login {
+  width: 250px;
+  margin: 0 auto;
+}
+.main_pg04 {
+  width: 1536px;
+  height: 320vh;
+  background-color: #000000;
+  margin-top: 100px;
+}
+.main_pg04 h1 {
+  font-family: "Noto Sans KR", sans-serif;
+  color: white;
+  font-size: 70px;
+}
+.page04_title {
+  width: 500px;
+  height: 200px;
+  margin-left: 75px;
+  margin-bottom: 40px;
+}
+.page04_text h3 {
+  font-family: "Noto Sans KR", sans-serif;
+  color: #767677;
+  font-size: 20px;
+}
+.page04_text {
+  margin-left: 35px;
+  text-align: center;
+  margin-top: 30px;
+}
+.page04_content {
+  margin: 0 auto;
+  width: 1400px;
+}
+
+#main_gallery_columns {
+  column-width: 290px;
+  column-gap: 5px;
+  margin-right: 15px;
+}
+#main_gallery_columns figure {
+  display: inline-block;
+  margin: 0;
+  padding: 5px;
+  position: relative;
+}
+#main_gallery_columns figure img {
+  width: 100%;
+  border-radius: 20px;
+}
+.pictalk_card01 {
+  width: 600px;
+  height: 740px;
+  margin: 0 auto;
+  background-color: white;
+  position: relative;
+  margin-top: 150px;
+  border-radius: 15px;
+}
+.pictalk_header {
+  width: 600px;
+  height: 80px;
+}
+.pictalk_header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 20px;
+  float: left;
+}
+.pictalk_name {
+  font-family: "Noto Sans KR", sans-serif;
+  color: #000000;
+  width: 200px;
+  height: 80px;
+  font-size: 30px;
+  position: relative;
+  padding-top: 20px;
+  margin-left: 80px;
+}
+.pictalk_main {
+  width: 600px;
+}
+.pictalk_main img {
+  width: 600px;
+}
+.pictalk_footer {
+  font-family: "Noto Sans KR", sans-serif;
+  color: #000000;
+  font-size: 25px;
+  margin-left: 20px;
+}
+.pictalk_card02 {
+  width: 600px;
+  height: 150px;
+  margin: 0 auto;
+  background-color: white;
+  position: relative;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+.pictalk_card03 {
+  width: 600px;
+  height: 150px;
+  margin: 0 auto;
+  background-color: white;
+  position: relative;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+.pictalk_card04 {
+  width: 600px;
+  height: 890px;
+  margin: 0 auto;
+  background-color: white;
+  position: relative;
+  margin-top: 30px;
+  border-radius: 15px;
 }
