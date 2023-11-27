@@ -88,39 +88,42 @@
         <div class="profile_gallery"><h1>최서윤'S GALLERY</h1>
             <div id="profile_gallery_columns">
                 <figure>
-                  <img src="gallery_img/gallery-img (41).jpg" />
+                  <img src="gallery_img/gallery-img (41).jpg" class="pic"/>
                 </figure>
                 <figure>
-                  <img src="gallery_img/gallery-img (12).jpg" />
+                  <img src="gallery_img/gallery-img (12).jpg" class="pic"/>
                 </figure>
                 <figure>
-                  <img src="gallery_img/gallery-img (33).jpg" />
+                  <img src="gallery_img/gallery-img (33).jpg"class="pic" />
                 </figure>
                 <figure>
-                  <img src="gallery_img/gallery-img (4).jpg" />
+                  <img src="gallery_img/gallery-img (4).jpg" class="pic"/>
                 </figure>
                 <figure>
-                  <img src="gallery_img/gallery-img (45).jpg" />
+                  <img src="gallery_img/gallery-img (45).jpg" class="pic"/>
                 </figure>
                 <figure>
-                  <img src="gallery_img/gallery-img (26).jpg" />
+                  <img src="gallery_img/gallery-img (26).jpg" class="pic"/>
                 </figure>
                 <figure>
-                  <img src="gallery_img/gallery-img (17).jpg" />
+                  <img src="gallery_img/gallery-img (17).jpg" class="pic"/>
                 </figure>
                 <figure>
-                    <img src="gallery_img/gallery-img (37).jpg" />
-                  </figure>
-                  <figure>
-                    <img src="gallery_img/gallery-img (27).jpg" />
-                  </figure>
-                  <figure>
-                    <img src="gallery_img/gallery-img (36).jpg" />
-                  </figure>
-                  <figure>
-                    <img src="gallery_img/gallery-img (1).jpg" />
-                  </figure>
-                </div>
+                  <img src="gallery_img/gallery-img (37).jpg" class="pic"/>
+                </figure>
+                <figure>
+                  <img src="gallery_img/gallery-img (27).jpg" class="pic"/>
+                </figure>
+                <figure>
+                  <img src="gallery_img/gallery-img (36).jpg" class="pic"/>
+                </figure>
+                <figure>
+                  <img src="gallery_img/gallery-img (1).jpg" class="pic"/>
+                </figure>
+            </div>
+            <div id="lightbox">
+              <img src="gallery_img/gallery-img (1).jpg" alt="" id="lightboxImg" />
+            </div>
       </div>
       <footer>
         <div id="bottomLogo">
@@ -129,6 +132,20 @@
         </div>
       </footer>
     </div>
-    <script src="main.js"></script>
+    <script>var pics = document.getElementsByClassName("pic");
+      var lightbox = document.getElementById("lightbox");
+      var lightboxImg = document.getElementById("lightboxImg");
+
+      for (i = 0; i < pics.length; i++) {
+        pics[i].addEventListener("click", showLightbox);
+      }
+      function showLightbox() {
+        var bigLocation = this.getAttribute("src");
+        lightboxImg.setAttribute("src", bigLocation);
+        lightbox.style.display = "block";
+      }
+      lightbox.onclick = function () {
+        lightbox.style.display = "none";
+      };</script>
   </body>
 </html>
