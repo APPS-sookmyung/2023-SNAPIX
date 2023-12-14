@@ -809,13 +809,12 @@ label {
 }
 .main_pg01 h1 {
   font-family: "Noto Sans KR", sans-serif;
-  font-size: 100px;
+  font-size: 120px;
   font-weight: bold;
   color: #00ff00;
-  float: right;
-  margin-right: 18px;
-  margin-top: 430px;
-  animation: fadeInUp 1.5s;
+  text-align: center;
+  margin-top: 220px;
+  animation: fadeInUp 3.5s;
 }
 
 @keyframes fadeInUp {
@@ -832,7 +831,6 @@ label {
   width: 1536px;
   height: 70vh;
   background-color: #000000;
-  margin-top: 100px;
 }
 
 .main_pg02 h1 {
