@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SNAPIX</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div id="logo">
+          <a href="index.html"><h1>SNAPIX</h1></a>
+        </div>
+        <nav>
+          <ul id="menu">
+            <li>
+              <a href="gallery.html">gallery</a>
+            </li>
+            <li>
+              <a href="pictalk.html">pictalk</a>
+            </li>
+            <li>
+              <a href="magazine.html">magazine</a>
+              <ul>
+                <li><a href="magazine.html">magazine</a></li>
+                <li><a href="contest.html">contest</a></li>
+                <li><a href="recruit.html">recruit</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div id="login">
+            <button
+              type="button"
+              onclick="location.href='login.html'"
+              style="cursor: pointer"
+            >
+              <img src="login_icon.png" alt="" />
+              <ul>
+                <li><a href="profile.html">profile</a></li>
+                <li><a href="index.html">logout</a></li>
+              </ul>
+            </button>
+          </div>
+          <div id="search">
+            <input type="text" />
+            <button
+              type="button"
+              onclick="location.href='#'"
+              style="cursor: pointer"
+            >
+              search
+            </button>
+          </div>
+        </nav>
+      </header>
+      <div id="signup_contents">
+        <h1>new here?</h1>
+
+        <form method="post" action="서버의url" id="login_form">
+          <input type="text" name="userName" placeholder="email" />
+          <input type="password" name="userPassword" placeholder="password" />
+
+          <input
+            type="submit"
+            value="Sign Up"
+            style="cursor: pointer; margin-top: 25px"
+          />
+        </form>
+      </div>
+      <footer>
+        <div id="bottomLogo">
+          <h1>SNAPIX</h1>
+          <h5>&copy;SNAPIX. ALL RIGHTS RESERVED</h5>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

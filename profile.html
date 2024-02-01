@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SNAPIX</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div id="logo">
+          <a href="index.html"><h1>SNAPIX</h1></a>
+        </div>
+        <nav>
+          <ul id="menu">
+            <li>
+              <a href="gallery.html">gallery</a>
+            </li>
+            <li>
+              <a href="pictalk.html">pictalk</a>
+            </li>
+            <li>
+              <a href="magazine.html">magazine</a>
+              <ul>
+                <li><a href="magazine.html">magazine</a></li>
+                <li><a href="contest.html">contest</a></li>
+                <li><a href="recruit.html">recruit</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div id="login">
+            <button
+              type="button"
+              onclick="location.href='login.html'"
+              style="cursor: pointer"
+            >
+              <img src="login_icon.png" alt="" />
+              <ul>
+                <li><a href="profile.html">profile</a></li>
+                <li><a href="index.html">logout</a></li>
+              </ul>
+            </button>
+          </div>
+          <div id="search">
+            <input type="text" />
+            <button
+              type="button"
+              onclick="location.href='#'"
+              style="cursor: pointer"
+            >
+              search
+            </button>
+          </div>
+        </nav>
+      </header>
+      <div id="profile_contents">
+        <div class="profile_card">
+          <div class="profile_card_header" style="background-image: url(gallery_img/gallery-img\ \(1\).jpg); background-size: 100% 500px ; border-radius: 15px 0px 0px 15px;
+          background-repeat: no-repeat;">
+          </div>
+
+          <div class="profile_card_body">
+            <h1>최서윤</h1>
+            <p class="profile_card_body_description_follower">938 followers&nbsp;&nbsp;|&nbsp;&nbsp;3 following</p>
+            
+            <div class="profile_card_body_btn">
+              <button
+                type="button"
+                onclick="location.href='#'"
+                style="cursor: pointer"
+              >
+                Edit Profile</button
+              >
+              <input type="file" class="real-upload" accept="image/*"  >
+              <div class="upload">Upload</div>
+            </div>            
+            <hr>
+            <p class="profile_card_body_description">
+                iPhone 11<br>
+                SONY A5100<br>
+                스트릿 스냅/인물 사진<br>
+                Instagram: @rendezvous.pic <br>
+                광고/협업 문의: sseo330@naver.com 
+                </p>
+          </div>
+        </div>
+        <div class="profile_gallery"><h1>최서윤'S GALLERY</h1>
+            <div id="profile_gallery_columns">
+                <figure>
+                  <img src="gallery_img/gallery-img (41).jpg" class="pic"/>
+                </figure>
+                <figure>
+                  <img src="gallery_img/gallery-img (12).jpg" class="pic"/>
+                </figure>
+                <figure>
+                  <img src="gallery_img/gallery-img (33).jpg"class="pic" />
+                </figure>
+                <figure>
+                  <img src="gallery_img/gallery-img (4).jpg" class="pic"/>
+                </figure>
+                <figure>
+                  <img src="gallery_img/gallery-img (45).jpg" class="pic"/>
+                </figure>
+                <figure>
+                  <img src="gallery_img/gallery-img (26).jpg" class="pic"/>
+                </figure>
+                <figure>
+                  <img src="gallery_img/gallery-img (17).jpg" class="pic"/>
+                </figure>
+                <figure>
+                  <img src="gallery_img/gallery-img (37).jpg" class="pic"/>
+                </figure>
+                <figure>
+                  <img src="gallery_img/gallery-img (27).jpg" class="pic"/>
+                </figure>
+                <figure>
+                  <img src="gallery_img/gallery-img (36).jpg" class="pic"/>
+                </figure>
+                <figure>
+                  <img src="gallery_img/gallery-img (1).jpg" class="pic"/>
+                </figure>
+            </div>
+            <div id="lightbox">
+              <img src="gallery_img/gallery-img (1).jpg" alt="" id="lightboxImg" />
+            </div>
+      </div>
+      <footer>
+        <div id="bottomLogo">
+          <h1>SNAPIX</h1>
+          <h5>&copy;SNAPIX. ALL RIGHTS RESERVED</h5>
+        </div>
+      </footer>
+    </div>
+    <script>var pics = document.getElementsByClassName("pic");
+      var lightbox = document.getElementById("lightbox");
+      var lightboxImg = document.getElementById("lightboxImg");
+
+      for (i = 0; i < pics.length; i++) {
+        pics[i].addEventListener("click", showLightbox);
+      }
+      function showLightbox() {
+        var bigLocation = this.getAttribute("src");
+        lightboxImg.setAttribute("src", bigLocation);
+        lightbox.style.display = "block";
+      }
+      lightbox.onclick = function () {
+        lightbox.style.display = "none";
+      };</script>
+  </body>
+</html>
