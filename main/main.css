@@ -809,22 +809,27 @@ label {
 }
 .main_pg01 h1 {
   font-family: "Noto Sans KR", sans-serif;
-  font-size: 135px;
+  font-size: 173px;
   font-weight: bold;
   color: #00ff00;
-  text-align: center;
-  margin-top: 220px;
-  animation: fadeInUp 3.5s;
+  line-height: 90%;
+  margin-top: 12vh;
 }
 
-@keyframes fadeInUp {
+.main_pg01 h1 span {
+  opacity: 0;
+  display: inline-block;
+  white-space: nowrap;
+  animation: showText forwards; /* Adjusted duration to 2s */
+  animation-iteration-count: infinite;
+}
+
+@keyframes showText {
   0% {
     opacity: 0;
-    transform: translate3d(0, 100%, 0);
   }
-  to {
+  100% {
     opacity: 1;
-    transform: translateZ(0);
   }
 }
 .main_pg02 {

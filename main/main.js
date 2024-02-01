@@ -48,3 +48,8 @@ textScroll.prototype.start = function () {
 var real_search_keyword = new textScroll("scroll"); // 스크롤링 하고자하는 ul 엘리먼트의 id값을 인자로 넣습니다
 real_search_keyword.name = "real_search_keyword"; // 인스턴스 네임을 등록합니다
 real_search_keyword.start(); // 스크롤링 시작
+
+const spans = document.querySelectorAll(".main_pg01 h1 span");
+spans.forEach((span, index) => {
+  span.style.animationDelay = `${index * 0.7}s`;
+});
