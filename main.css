@@ -9,18 +9,18 @@
 }
 body {
   margin: 0;
-  width: 100vw;
+  width: 1536px;
   height: 100vh;
   background: #000000;
   overflow-x: hidden;
 }
 .container {
-  width: 100vw;
+  width: 1536px;
   height: 100vh;
   background: #000000;
 }
 header {
-  width: 100vw;
+  width: 1536px;
   height: 90px;
   background-color: #00ff00;
   position: fixed;
@@ -136,7 +136,7 @@ ul {
   z-index: 10;
 }
 #columns {
-  column-width: 100vw;
+  column-width: 1536px;
   column-gap: 100vh;
 }
 #long1 figure img {
@@ -804,7 +804,7 @@ label {
   opacity: 1;
 }
 .main_pg01 {
-  width: 100vw;
+  width: 1536px;
   height: 100vh;
 }
 .main_pg01 h1 {
@@ -833,7 +833,7 @@ label {
   }
 }
 .main_pg02 {
-  width: 100vw;
+  width: 1536px;
   height: 70vh;
   background-color: #000000;
 }
@@ -853,7 +853,7 @@ label {
 }
 
 .main_pg03 {
-  width: 100vw;
+  width: 1536px;
   height: 70vh;
   background-color: #000000;
   margin-top: 100px;
@@ -909,7 +909,7 @@ label {
   font-size: 20px;
 }
 .main_pg07 {
-  width: 100vw;
+  width: 1536px;
   height: 60vh;
   background-color: #000000;
   margin-top: 200px;
@@ -922,7 +922,7 @@ label {
   margin-bottom: 60px;
 }
 .main_pg08 {
-  width: 100vw;
+  width: 1536px;
   height: 30vh;
   background-color: #000000;
   margin-top: 100px;
@@ -941,7 +941,7 @@ label {
   margin: 0 auto;
 }
 .main_pg04 {
-  width: 100vw;
+  width: 1536px;
   height: 320vh;
   background-color: #000000;
   margin-top: 100px;
