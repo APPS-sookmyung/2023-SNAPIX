@@ -1124,7 +1124,7 @@ label {
   width: 420px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
   #logo h1 {
     font-size: 30px;
     text-align: center;
