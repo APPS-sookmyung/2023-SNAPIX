@@ -9,13 +9,13 @@
 }
 body {
   margin: 0;
-  width: 100%;
+  width: 1536px;
   height: 100vh;
   background: #000000;
   overflow-x: hidden;
 }
 .container {
-  width: 100%;
+  width: 1536px;
   height: 100vh;
   background: #000000;
 }
@@ -1124,7 +1124,7 @@ label {
   width: 420px;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   #logo h1 {
     font-size: 30px;
     text-align: center;
@@ -1132,13 +1132,4 @@ label {
   #menu {
     display: none;
   }
-}
-
-@media screen and (min-width: 769px) {
-  #logo h1 {
-    font-size: 50px;
-  }
-  #menu {
-    display: block;
-  }
-}
+} */
