@@ -1123,22 +1123,21 @@ label {
   transform: translate(-50%, -50%);
   width: 420px;
 }
-@media screen and (max-width: 768px) {
-  body {
-    width: 100%;
-  }
 
-  .container {
-    width: 100%;
+@media screen and (max-width: 640px) {
+  #logo h1 {
+    font-size: 14px;
   }
-
-  header {
-    width: 100%;
+  #menu {
+    display: none;
   }
+}
 
-  #logo {
-    width: 100%;
+@media screen and (min-width: 769px) {
+  #logo h1 {
+    font-size: 50px;
   }
-
-  /* 필요한 부분을 더 추가하세요 */
+  #menu {
+    display: block;
+  }
 }
