@@ -568,7 +568,7 @@ ul {
   }
   .main_pg01 h1 {
     font-size: 90px;
-    line-height: 200%;
+    line-height: 130%;
     margin-top: 200px;
   }
 
@@ -577,7 +577,7 @@ ul {
     text-align: center;
   }
   .main_pg02 h3 {
-    font-size: 12px;
+    font-size: 15px;
     text-align: center;
   }
   .text_round {
@@ -630,7 +630,7 @@ ul {
     border-radius: 20px;
   }
   .main_pg07 h1 {
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
   }
   .main_pg_login li button {
