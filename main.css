@@ -103,125 +103,6 @@ ul {
   font-family: "Noto Sans KR", sans-serif;
   font-weight: 800;
 }
-
-#login button ul {
-  display: none;
-  position: relative;
-  width: 115px;
-  background-color: white;
-  margin: 0;
-  right: 75px;
-}
-#login button ul li {
-  padding: 5px 5px 5px 10px;
-}
-#login button ul li a {
-  font-size: 17px;
-  color: #000000;
-  font-family: "Noto Sans KR", sans-serif;
-  font-weight: 800;
-  text-decoration-line: none;
-}
-
-#columns {
-  column-width: 1536px;
-  column-gap: 100vh;
-}
-#long1 figure img {
-  width: 502px;
-  height: 600px;
-  display: inline-block;
-  margin: 0;
-  margin-top: 10px;
-  border-radius: 30px;
-  background-color: #fdff00;
-}
-#long2 figure img {
-  width: 502px;
-  height: 600px;
-  display: inline-block;
-  margin: 0;
-  margin-top: 10px;
-  border-radius: 30px;
-}
-
-#wide1 > figure {
-  width: 502px;
-  height: 295px;
-  display: inline-block;
-  margin: 0;
-  margin-top: 10px;
-  border-radius: 30px;
-  background-color: #fdff00;
-}
-#wide2 figure img {
-  width: 502px;
-  height: 295px;
-  display: inline-block;
-  margin: 0;
-  margin-top: 5px;
-  border-radius: 30px;
-}
-
-#long,
-#wide {
-  display: inline-block;
-}
-#long1,
-#long2 {
-  display: inline-block;
-}
-#search {
-  float: right;
-  background-color: #000000;
-  border-radius: 30px;
-  height: 30px;
-  width: 200px;
-  margin-top: -28px;
-  margin-right: 10px;
-}
-
-#search input {
-  border: none;
-  background-color: #000000;
-  outline: none;
-  color: #00ff00;
-  font-family: "Noto Sans KR", sans-serif;
-  font-size: 16px;
-  font-weight: 30;
-  margin-left: 10px;
-  width: 130px;
-  height: 25px;
-}
-#search button {
-  border: none;
-  color: #00ff00;
-  font-family: "Noto Sans KR", sans-serif;
-  background-color: #000000;
-  font-size: 16px;
-  font-weight: 30;
-  height: 25px;
-  margin-top: 1px;
-  margin-right: 1px;
-  border-radius: 30px;
-}
-
-#login button {
-  float: right;
-  background-color: #00ff00;
-  height: 35px;
-  width: 35px;
-  margin-top: -29px;
-  outline: none;
-  border: none;
-  margin-right: 40px;
-  margin-left: 3px;
-}
-#login button img {
-  height: 35px;
-  width: 35px;
-}
-
 #columns img {
   filter: brightness(1);
 }
@@ -377,50 +258,6 @@ label {
   margin: 5px 21px;
   font-size: 18px;
 }
-#magazine_search {
-  background-color: white;
-  border-radius: 30px;
-  height: 50px;
-  width: 500px;
-  margin: 0 auto;
-  margin-top: 15px;
-  margin-bottom: 120px;
-}
-#magazine_search input {
-  border: none;
-  background-color: white;
-  outline: none;
-  color: #000000;
-  font-family: "Noto Sans KR", sans-serif;
-  font-size: 25px;
-  font-weight: 30;
-  margin-left: 10px;
-  width: 400px;
-  height: 35px;
-  padding-left: 5px;
-}
-#magazine_search input::placeholder {
-  opacity: 50%;
-}
-#magazine_search button {
-  border: none;
-  color: #000000;
-  font-family: "Noto Sans KR", sans-serif;
-  background-color: #00ff00;
-  font-size: 23px;
-  font-weight: 30;
-  width: 84.39px;
-  height: 50px;
-  border-radius: 30px;
-}
-.magazine_title h1 {
-  font-family: "Permanent Marker", cursive;
-  font-weight: 450;
-  font-size: 70px;
-  color: white;
-  text-align: center;
-  margin-top: 150px;
-}
 
 .card {
   height: 400px;
@@ -513,85 +350,7 @@ label {
   color: white;
   text-align: center;
   margin-top: 60px;
-}
-.recruit_title h1 {
-  font-family: "Permanent Marker", cursive;
-  font-weight: 450;
-  font-size: 70px;
-  color: white;
-  text-align: center;
-  margin-top: 150px;
-  margin-bottom: 120px;
-}
-.recruit-body-header h1 {
-  font-size: 25px;
-  font-weight: 900;
-  color: #000000;
-  font-family: "Noto Sans KR", sans-serif;
-}
-.recruit-body-header {
-  line-height: 25px;
-  margin: 10px 20px 0px 20px;
-}
-.recruit-body-description {
-  color: #000000;
-  line-height: 25px;
-  height: 25px;
-  margin: 5px 21px;
-  font-size: 18px;
-}
-.recruit-body-header h4 {
-  font-size: 13px;
-  font-weight: 900;
-  color: #000000;
-  font-family: "Noto Sans KR", sans-serif;
-  padding-left: 2px;
-}
-
-.card_recruit {
-  height: 400px;
-  width: 350px;
-  border-radius: 15px;
-  display: inline-block;
-  margin-left: 20px;
-  position: relative;
-  background-color: white;
-  color: #000000;
-  margin-bottom: 30px;
-  margin-top: 5px;
-}
-
-.card-header_recruit {
-  width: 100%;
-  height: 220px;
-  border-radius: 15px 15px 0 0;
-}
-.card-body_recruit {
-  background-color: white;
-  font-family: "Noto Sans KR", sans-serif;
-  height: 165px;
-  border-radius: 15px;
-}
-
-.card-body-footer_recruit {
-  position: absolute;
-  margin-top: 15px;
-  margin-bottom: 6px;
-  bottom: 0;
-  width: 350px;
-  font-size: 14px;
-  color: #000000;
-  padding: 0 21px;
-  background-color: white;
-  border-radius: 15px;
-}
-.card-body-footer_recruit hr {
-  margin-bottom: 8px;
-  border-color: #00ff00;
-  width: 309px;
-}
-.card_recruit a {
-  text-decoration-line: none;
+  margin-bottom: 100px;
 }
 #gallery_contents {
   margin-top: 150px;
@@ -616,42 +375,6 @@ label {
 }
 #gallery_columns img:hover {
   filter: brightness(0.6);
-}
-#gallery_search {
-  background-color: white;
-  border-radius: 30px;
-  height: 50px;
-  width: 500px;
-  margin: 0 auto;
-  margin-top: 15px;
-  margin-bottom: 120px;
-}
-#gallery_search input {
-  border: none;
-  background-color: white;
-  outline: none;
-  color: #000000;
-  font-family: "Noto Sans KR", sans-serif;
-  font-size: 25px;
-  font-weight: 30;
-  margin-left: 10px;
-  width: 400px;
-  height: 35px;
-  padding-left: 5px;
-}
-#gallery_search button {
-  border: none;
-  color: #000000;
-  font-family: "Noto Sans KR", sans-serif;
-  background-color: #00ff00;
-  font-size: 23px;
-  font-weight: 30;
-  width: 84.39px;
-  height: 50px;
-  border-radius: 30px;
-}
-#gallery_search input::placeholder {
-  opacity: 50%;
 }
 .profile_card_body h1 {
   font-weight: 900;
@@ -773,19 +496,6 @@ label {
   border-color: #00ff00;
   width: 350px;
   margin: 0 auto;
-}
-
-.viewprofile {
-  position: absolute;
-  border: none;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  opacity: 0;
-  transition: 0.5s all;
-  bottom: 21px;
-  left: 20px;
-  overflow: hidden;
 }
 
 #gallery_columns figure:hover .viewprofile {
@@ -975,76 +685,6 @@ label {
   width: 100%;
   border-radius: 20px;
 }
-.pictalk_card01 {
-  width: 600px;
-  height: 740px;
-  margin: 0 auto;
-  background-color: white;
-  position: relative;
-  margin-top: 150px;
-  border-radius: 15px;
-}
-.pictalk_header {
-  width: 600px;
-  height: 80px;
-}
-.pictalk_header img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  margin-top: 20px;
-  margin-left: 20px;
-  float: left;
-}
-.pictalk_name {
-  font-family: "Noto Sans KR", sans-serif;
-  color: #000000;
-  width: 200px;
-  height: 80px;
-  font-size: 30px;
-  position: relative;
-  padding-top: 20px;
-  margin-left: 80px;
-}
-.pictalk_main {
-  width: 600px;
-}
-.pictalk_main img {
-  width: 600px;
-}
-.pictalk_footer {
-  font-family: "Noto Sans KR", sans-serif;
-  color: #000000;
-  font-size: 25px;
-  margin-left: 20px;
-}
-.pictalk_card02 {
-  width: 600px;
-  height: 150px;
-  margin: 0 auto;
-  background-color: white;
-  position: relative;
-  margin-top: 30px;
-  border-radius: 15px;
-}
-.pictalk_card03 {
-  width: 600px;
-  height: 150px;
-  margin: 0 auto;
-  background-color: white;
-  position: relative;
-  margin-top: 30px;
-  border-radius: 15px;
-}
-.pictalk_card04 {
-  width: 600px;
-  height: 890px;
-  margin: 0 auto;
-  background-color: white;
-  position: relative;
-  margin-top: 30px;
-  border-radius: 15px;
-}
 #signup_contents h1 {
   font-family: "Permanent Marker", cursive;
   font-weight: 700;
@@ -1110,4 +750,31 @@ label {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 420px;
+}
+@media (max-width: 768px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+  .container {
+    width: 100vw;
+    height: 100vh;
+  }
+  header {
+    width: 100vw;
+    height: 90px;
+  }
+  #logo h1 {
+    text-align: center;
+    margin-left: 30px;
+  }
+  #menu {
+    display: none;
+  }
+  #login {
+    display: none;
+  }
+  #search {
+    display: none;
+  }
 }
