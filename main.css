@@ -541,6 +541,7 @@ ul {
   body {
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
   }
   .container {
     width: 100vw;
@@ -567,7 +568,7 @@ ul {
   }
   .main_pg01 h1 {
     font-size: 100px;
-    line-height: 90%;
+    line-height: 200%;
     margin-top: 15vh;
   }
 
