@@ -374,10 +374,6 @@ ul {
   width: 350px;
   margin: 0 auto;
 }
-
-#gallery_columns figure:hover .viewprofile {
-  opacity: 1;
-}
 .main_pg01 {
   width: 1536px;
   height: 100vh;
@@ -602,17 +598,106 @@ ul {
     width: 100vw;
     height: 90px;
   }
+  #logo {
+    width: 100vw;
+    height: 70px;
+  }
   #logo h1 {
+    font-size: 60px;
     text-align: center;
-    margin-left: 30px;
   }
   #menu {
     display: none;
   }
-  #login {
-    display: none;
+  #bottomLogo h1 {
+    font-weight: 700;
+    font-size: 50px;
   }
-  #search {
+  .main_pg01 {
+    width: 100vw;
+    height: 100vh;
+  }
+  .main_pg01 h1 {
+    font-size: 100px;
+    line-height: 90%;
+    margin-top: 15vh;
+  }
+
+  .main_pg02 {
+    width: 100vw;
+    height: 70vh;
+  }
+  .main_pg02 h1 {
+    font-size: 55px;
+    text-align: center;
+  }
+  .main_pg02 h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .main_pg03 {
+    width: 100vw;
+    height: 70vh;
+  }
+  .text_round {
+    margin: 0 auto;
+    width: 450px;
+    height: 55px;
+    border-radius: 50px;
+    border: 3px solid #00ff00;
+  }
+  #scroll {
+    height: 50px;
+  }
+  #scroll li {
+    font-size: 33px;
+  }
+  .text_round h1 {
+    font-size: 33px;
+    width: 45px;
+    height: 50px;
+  }
+  .page03_title h1 {
+    font-size: 55px;
+    text-align: center;
+  }
+  .page03_text h3 {
+    text-align: center;
+    font-size: 17px;
+  }
+  .main_pg04 {
+    width: 100vw;
+    height: 200vh;
+  }
+  .main_pg04 h1 {
+    font-size: 55px;
+    margin-left: 0px;
+  }
+  .page04_text h3 {
+    font-family: "Noto Sans KR", sans-serif;
+    color: #767677;
+    font-size: 17px;
+  }
+
+  .main_pg07 {
+    width: 100vw;
+    height: 60vh;
+  }
+  .main_pg07 h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+  .main_pg_login li button {
+    width: 180px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+  }
+  .main_pg_login {
+    width: 250px;
+    margin: 0 auto;
+  }
+  footer {
     display: none;
   }
 }
