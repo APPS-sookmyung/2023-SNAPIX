@@ -478,10 +478,8 @@ ul {
   margin-top: 200px;
 }
 .page04_title {
-  width: 500px;
-  height: 200px;
-  margin-left: 75px;
   margin-bottom: 40px;
+  text-align: center;
 }
 .page04_text h3 {
   font-family: "Noto Sans KR", sans-serif;
@@ -491,7 +489,7 @@ ul {
 .page04_text {
   margin-left: 35px;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 .page04_content {
   margin: 0 auto;
@@ -613,10 +611,17 @@ ul {
     font-size: 55px;
     margin-left: 0px;
   }
+  #main_gallery_columns {
+    display: none;
+  }
   .page04_text h3 {
     font-family: "Noto Sans KR", sans-serif;
     color: #767677;
     font-size: 17px;
+  }
+  .page04_text {
+    text-align: center;
+    margin-right: 40px;
   }
   .main_pg07 h1 {
     font-size: 37px;
