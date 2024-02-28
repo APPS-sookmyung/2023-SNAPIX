@@ -720,7 +720,7 @@ ul {
   .card-body-footer hr {
     margin-bottom: 8px;
     border-color: #00ff00;
-    width: 80vw;
+    width: 50%;
   }
   .card a {
     text-decoration-line: none;
