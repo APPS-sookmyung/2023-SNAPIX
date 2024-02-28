@@ -538,6 +538,9 @@ ul {
   transform: translate(-50%, -50%);
   width: 420px;
 }
+#floating-map-button {
+  display: none;
+}
 @media (max-width: 768px) {
   body {
     width: 100vw;
@@ -570,7 +573,8 @@ ul {
   .main_pg01 h1 {
     font-size: 90px;
     line-height: 130%;
-    margin-top: 150px;
+    margin-top: 140px;
+    margin-left: 10px;
   }
 
   .main_pg02 h1 {
@@ -663,7 +667,6 @@ ul {
     margin: 5px 21px;
     font-size: 18px;
   }
-
   .card {
     height: 450px;
     width: 90vw;
@@ -716,7 +719,7 @@ ul {
   .card-body-footer hr {
     margin-bottom: 8px;
     border-color: #00ff00;
-    width: 50%;
+    width: 150%;
   }
   .card a {
     text-decoration-line: none;
@@ -783,5 +786,23 @@ ul {
     font-size: 23px;
     text-align: center;
     padding-bottom: 30px;
+  }
+  #floating-map-button {
+    position: fixed;
+    display: flex;
+    left: 92%;
+    bottom: 30px;
+    background-color: #00ff00;
+    transform: translateX(-50%);
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    font-family: "Permanent Marker", cursive;
+    font-size: 50px;
+    font-weight: 900;
+    color: black;
   }
 }
