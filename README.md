@@ -1,6 +1,6 @@
 <div align="center">
 
-# SNAPIX 📸✨  
+# 📸 SNAPIX ✨   
 > **The Moment Forever, SNAPIX.**  
 
 ![Snapix Banner](https://github.com/user-attachments/assets/892614ab-4806-49df-ae2e-00ad22a6d27e) 
